@@ -1,0 +1,29 @@
+name: ESPectre_techlogix
+
+services:
+
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "8123:8123"
+    volumes:
+      - ./homeassistant:/config
+    environment:
+      - TZ=Europe/Madrid
+
+  esphome:
+    container_name: esphome
+    image: esphome/esphome:stable
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "6052:6052"
+    volumes:
+      - ./esphome:/config
+    environment:
+      - USERNAME=user
+      - PASSWORD=password
+      - TZ=Europe/Madrid

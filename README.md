@@ -47,7 +47,9 @@ Desde ahí podrás:
 > **Nota**: Darle al boton de Logs una vez este conectado a la wifi para extraer la direccion ip
 ---
 
-### 2️⃣ Descargar el YAML de ESPectre
+### 2️⃣ Descargar el YAML de ESPectre y el docker-compose para levantar los servicios
+
+> **Nota**: El docker-compose lo tienes en los archivos del proyecto
 
 Descarga el archivo de configuración que corresponda a tu modelo de ESP32:
 

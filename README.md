@@ -2,7 +2,7 @@
 ### by tech_logix
 
 🎥 **Enlace al reel:**  
-_(añadir aquí)_
+https://www.tiktok.com/@tech_logix/video/7600125135584038166
 
 Este repositorio recopila los **pasos mínimos** para instalar y poner en funcionamiento **ESPectre**, un sistema **open-source de detección de movimiento** basado en **perturbaciones de señales Wi-Fi**, ejecutado sobre microcontroladores ESP32.
 
